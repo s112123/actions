@@ -12,6 +12,7 @@ on:
         required: true
         default: 'dev'
         type: choice
+        options:
           - dev
           - qa
           - prod
