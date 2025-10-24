@@ -1,4 +1,4 @@
-name: artif
+name: artifact
 on: push
 
 jobs:
@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo
-        uses: echo hello-world > hello.txt
+        run: echo hello-world > hello.txt
       - name: upload artifact
         uses: actions/upload-artifact@v3
         with:
