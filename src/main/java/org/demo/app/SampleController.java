@@ -1,2 +1,7 @@
-package org.demo.app;public class SampleController {
+package org.demo.app;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class SampleController {
 }
