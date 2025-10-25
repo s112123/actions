@@ -1,6 +1,6 @@
 name: create-repo
 on:
-  workflow_patch:
+  workflow_dispatch:
     inputs:
       prefix:
         description: 'set repo prefix'
@@ -15,7 +15,7 @@ on:
         required: true
         default: 'github-actions'
         type: string
-        
+
 jobs:
   create-repo-automation:
     runs-on: ubuntu-latest
